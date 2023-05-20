@@ -1,0 +1,12 @@
+C:\Boolean\7EntityFramework\csharp-entity-framework-intro-exemplar\ef.intro.tests\bin\Debug\net7.0\ef.intro.tests.deps.json
+C:\Boolean\7EntityFramework\csharp-entity-framework-intro-exemplar\ef.intro.tests\bin\Debug\net7.0\ef.intro.tests.dll
+C:\Boolean\7EntityFramework\csharp-entity-framework-intro-exemplar\ef.intro.tests\bin\Debug\net7.0\ef.intro.tests.pdb
+C:\Boolean\7EntityFramework\csharp-entity-framework-intro-exemplar\ef.intro.tests\obj\Debug\net7.0\ef.intro.tests.csproj.AssemblyReference.cache
+C:\Boolean\7EntityFramework\csharp-entity-framework-intro-exemplar\ef.intro.tests\obj\Debug\net7.0\ef.intro.tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Boolean\7EntityFramework\csharp-entity-framework-intro-exemplar\ef.intro.tests\obj\Debug\net7.0\ef.intro.tests.AssemblyInfoInputs.cache
+C:\Boolean\7EntityFramework\csharp-entity-framework-intro-exemplar\ef.intro.tests\obj\Debug\net7.0\ef.intro.tests.AssemblyInfo.cs
+C:\Boolean\7EntityFramework\csharp-entity-framework-intro-exemplar\ef.intro.tests\obj\Debug\net7.0\ef.intro.tests.csproj.CoreCompileInputs.cache
+C:\Boolean\7EntityFramework\csharp-entity-framework-intro-exemplar\ef.intro.tests\obj\Debug\net7.0\ef.intro.tests.dll
+C:\Boolean\7EntityFramework\csharp-entity-framework-intro-exemplar\ef.intro.tests\obj\Debug\net7.0\refint\ef.intro.tests.dll
+C:\Boolean\7EntityFramework\csharp-entity-framework-intro-exemplar\ef.intro.tests\obj\Debug\net7.0\ef.intro.tests.pdb
+C:\Boolean\7EntityFramework\csharp-entity-framework-intro-exemplar\ef.intro.tests\obj\Debug\net7.0\ref\ef.intro.tests.dll

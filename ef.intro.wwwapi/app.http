@@ -1,0 +1,17 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+@port=7136
+###
+GET https://localhost:{{port}}/authors
+###
+POST https://localhost:{{port}}/author
+
+Content-Type: application/json
+
+{
+  "id": 0,
+  "firstName": "Nigel",
+  "lastName": "string"
+  
+}
+###
