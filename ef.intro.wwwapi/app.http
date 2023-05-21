@@ -6,14 +6,18 @@ GET https://localhost:{{port}}/authors
 ###
 GET https://localhost:{{port}}/books
 ###
+GET GET https://localhost:{{port}}/authors/1
+### TODO
+GET GET https://localhost:{{port}}/books/1
+
 POST https://localhost:{{port}}/author
 
 Content-Type: application/json
 
 {
-  "id": 0,
-  "firstName": "Nigel",
-  "lastName": "string"
   
 }
+
 ###
+
+### Complete Verbs Here!

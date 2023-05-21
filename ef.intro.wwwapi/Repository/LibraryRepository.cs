@@ -1,5 +1,6 @@
 ﻿using ef.intro.wwwapi.Context;
 using ef.intro.wwwapi.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ef.intro.wwwapi.Repository
 {
@@ -20,29 +21,42 @@ namespace ef.intro.wwwapi.Repository
             return false;
         }
         public IEnumerable<Author> GetAllAuthors()
-        {
-            
-
+        {            
             using (var db = new LibraryContext())
             {
-                return db.Authors.ToList();
+                return db.Authors.Include(a => a.Books).ToList();
             }
             return null;
         }
 
         public bool AddBook(Book book)
         {
-            throw new NotImplementedException();
+            using (var db = new LibraryContext())
+            {
+                throw new NotImplementedException(); //TODO: Remove this line and add code
+                return true;
+            };
+            return false;
         }
 
         public bool DeleteAuthor(int id)
         {
-            throw new NotImplementedException();
+            using (var db = new LibraryContext())
+            {
+                throw new NotImplementedException(); //TODO: Remove this line and add code
+                return true;
+            };
+            return false;
         }
 
         public bool DeleteBook(int id)
         {
-            throw new NotImplementedException();
+            using (var db = new LibraryContext())
+            {
+                throw new NotImplementedException(); //TODO: Remove this line and add code
+                return true;
+            };
+            return false;
         }
 
        
@@ -58,22 +72,42 @@ namespace ef.intro.wwwapi.Repository
 
         public Author GetAuthor(int id)
         {
-            throw new NotImplementedException();
+            Author result;
+            using (var db = new LibraryContext())
+            {
+                throw new NotImplementedException(); //TODO: Remove this line and add code                
+            };
+            return result;
         }
 
         public Book GetBook(int id)
         {
-            throw new NotImplementedException();
+            Book result;
+            using (var db = new LibraryContext())
+            {
+                throw new NotImplementedException(); //TODO: Remove this line and add code              
+            };
+            return result;
         }
 
         public bool UpdateAuthor(Author author)
         {
-            throw new NotImplementedException();
+            using (var db = new LibraryContext())
+            {
+                throw new NotImplementedException(); //TODO: Remove this line and add code
+                return true;
+            };
+            return false;
         }
 
         public bool UpdateBook(Book book)
         {
-            throw new NotImplementedException();
+            using (var db = new LibraryContext())
+            {
+                throw new NotImplementedException(); //TODO: Remove this line and add code
+                return true;
+            };
+            return false;
         }
     }
 }

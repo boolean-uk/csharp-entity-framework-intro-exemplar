@@ -3,8 +3,14 @@
 1. Fork this repository
 2. Clone your fork to your machine
 3. Open the ef.intro.sln in Visual Studio
-4. Take a look in the bagels package to see an example of how an API might be structured using the MVC approach (we are using in this exercise the ASP.NET, to be able to visualize the api endpoints and the data in the browser).
-Create your own Products classes: Products model ProductRepository repository class with some CRUD Inject the repository into the ProductsController and write controller CRUD methods
+4. Only write code in the LibraryRepository.cs.  Finish all methods, replacing "throw new NotImplementedException();" with 
+   relevant LibraryContext code.  
+5. Note:  There are no controllers in this project!!  A current way of writing endpoints is in the EndPoint directory.
+		  See How the AuthorApi.cs & BookApi.cs both are extension methods of the WebApplication class which 
+		  is returned in the Program.cs from a builder.Build() call.  This way we can call this to initialize from the 
+		  extension method.  See also how the data is populated via the Seed() method call.  Note how we are 
+		  randomly generating names of both authors & books!
+
 
 
 # .http Files
