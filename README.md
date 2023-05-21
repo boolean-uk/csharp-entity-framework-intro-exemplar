@@ -4,7 +4,7 @@
 2. Clone your fork to your machine
 3. Open the ef.intro.sln in Visual Studio
 4. Only write code in the LibraryRepository.cs.  Finish all methods, replacing "throw new NotImplementedException();" with 
-   relevant LibraryContext code.  
+   relevant C# Entity Framework code by using the LibraryContext.  
 5. Note:  There are no controllers in this project!!  A current way of writing endpoints is in the EndPoint directory.
 		  See How the AuthorApi.cs & BookApi.cs both are extension methods of the WebApplication class which 
 		  is returned in the Program.cs from a builder.Build() call.  This way we can call this to initialize from the 

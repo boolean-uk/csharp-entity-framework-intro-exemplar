@@ -65,7 +65,7 @@ namespace ef.intro.wwwapi.Repository
         {
             using (var db = new LibraryContext())
             {
-                return db.Books.ToList();
+                return db.Books.Include(b=>b.Author).ToList();
             }
             return null;
         }
