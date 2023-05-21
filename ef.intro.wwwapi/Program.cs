@@ -1,4 +1,5 @@
 using ef.intro.wwwapi.Context;
+using ef.intro.wwwapi.Data;
 using ef.intro.wwwapi.EndPoint;
 using ef.intro.wwwapi.Repository;
 using Microsoft.EntityFrameworkCore;
@@ -31,5 +32,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.ConfigureAuthorApi();
+
+app.Seed();
 
 app.Run();
