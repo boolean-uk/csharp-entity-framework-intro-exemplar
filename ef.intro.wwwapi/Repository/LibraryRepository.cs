@@ -49,7 +49,11 @@ namespace ef.intro.wwwapi.Repository
 
         public IEnumerable<Book> GetAllBooks()
         {
-            throw new NotImplementedException();
+            using (var db = new LibraryContext())
+            {
+                return db.Books.ToList();
+            }
+            return null;
         }
 
         public Author GetAuthor(int id)

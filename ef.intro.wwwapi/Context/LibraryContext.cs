@@ -18,7 +18,7 @@ namespace ef.intro.wwwapi.Context
            .HasKey(m => new { m.Id });
 
         }
-        //public DbSet<Book> Books { get; set; }
         public DbSet<Author> Authors { get; set; }
+        public DbSet<Book> Books { get; set; }
     }
 }

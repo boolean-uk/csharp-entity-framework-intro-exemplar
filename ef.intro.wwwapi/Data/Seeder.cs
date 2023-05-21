@@ -42,9 +42,41 @@ namespace ef.intro.wwwapi.Data
             "something.com",
             "tesla.com",
             "nasa.org.us",
-            "gov",
+            "gov.us",
             "gov.gr",
             "gov.nl"
+        };
+        private static List<string> FirstWord = new List<string>()
+        {
+            "The",            
+            "Two",
+            "Several",
+            "Fifteen",
+            "A bunch of",
+            "An army of",
+            "A herd of"
+
+
+        };
+        private static List<string> SecondWord = new List<string>()
+        {
+            "Orange",
+            "Purple",
+            "Large",
+            "Microscopic",
+            "Green",
+            "Transparent",
+            "Rose Smelling",
+            "Bitter"
+        };
+        private static List<string> ThirdWord = new List<string>()
+        {
+            "Buildings",
+            "Cars",
+            "Planets",
+            "Houses",
+            "Flowers",
+            "Leopards"
         };
 
         public static void Seed(this WebApplication app)
@@ -53,36 +85,43 @@ namespace ef.intro.wwwapi.Data
             
             using (var db = new LibraryContext())
             {
+                Random authorRandom = new Random();                       
+                Random bookRandom = new Random();
+                var authors = new List<Author>();
+                var books = new List<Book>();
+
                 if (!db.Authors.Any())
                 {
-                    List<Author> authors = new List<Author>();
                     for(int x = 1; x < 250; x++)
                     {
-                        Random random = new Random();                       
                         Author author = new Author();
                         author.Id = x;
-                        author.FirstName = Firstnames[random.Next(Firstnames.Count)];
-                        author.LastName = Lastnames[random.Next(Lastnames.Count)];
-                        author.Email = $"{author.FirstName}.{author.LastName}@{Domain[random.Next(Domain.Count)]}";
+                        author.FirstName = Firstnames[authorRandom.Next(Firstnames.Count)];
+                        author.LastName = Lastnames[authorRandom.Next(Lastnames.Count)];
+                        author.Email = $"{author.FirstName}.{author.LastName}@{Domain[authorRandom.Next(Domain.Count)]}";
                         authors.Add(author);
 
                                               
                     }
                     db.Authors.AddRange(authors);
-                    db.SaveChanges();
                 }
-                //if (!db.Books.Any())
-                //{
-                //    var books = new List<Book>()
-                //    {
-                //        new Book { Id = 1, Title="C# 10", AuthorId=1 },
-                //        new Book { Id = 2, Title = "Fundamental of Structured COBOL", AuthorId = 2 },
-                //        new Book { Id = 3, Title = "UML", AuthorId = 3 }
-                //    };
-                //    db.Books.AddRange(books);
-                //    db.SaveChanges();
-                //}
 
+
+                if (!db.Books.Any())
+                {
+
+                    for (int x = 1; x < 250; x++)
+                    {
+                        Book book = new Book();
+                        book.Id = x;
+                        book.Title = $"{FirstWord[bookRandom.Next(FirstWord.Count)]} {SecondWord[bookRandom.Next(SecondWord.Count)]} {ThirdWord[bookRandom.Next(ThirdWord.Count)]}";
+                        book.AuthorId = authors[authorRandom.Next(authors.Count)].Id;
+                        //book.Author = authors[book.AuthorId-1];
+                        books.Add(book);
+                    }
+                    db.Books.AddRange(books);
+                }
+                db.SaveChanges();            
             }
 
         }

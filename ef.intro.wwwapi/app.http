@@ -4,6 +4,8 @@
 ###
 GET https://localhost:{{port}}/authors
 ###
+GET https://localhost:{{port}}/books
+###
 POST https://localhost:{{port}}/author
 
 Content-Type: application/json
