@@ -2,22 +2,39 @@
 
 @port=7136
 ###
+### IEnumerable<Author> GetAllAuthors();
 GET https://localhost:{{port}}/authors
 ###
 GET https://localhost:{{port}}/books
 ###
-GET GET https://localhost:{{port}}/authors/1
+GET https://localhost:{{port}}/authors/1
 ### TODO
-GET GET https://localhost:{{port}}/books/1
-
+GET https://localhost:{{port}}/books/1
+###
 POST https://localhost:{{port}}/author
+Content-Type: application/json
+{
+    Id:0  
+}
+###
+###
+POST https://localhost:{{port}}/book
 
 Content-Type: application/json
-
 {
-  
+  Id:0  
 }
 
-###
 
-### Complete Verbs Here!
+
+###Author GetAuthor(int id);
+###bool AddAuthor(Author author);
+#bool UpdateAuthor(Author author);
+#bool DeleteAuthor(int id);
+
+
+### IEnumerable<Book> GetAllBooks()
+### Book GetBook(int id);
+### bool AddBook(Book book);
+### bool UpdateBook(Book book);
+### bool DeleteBook(int id);
