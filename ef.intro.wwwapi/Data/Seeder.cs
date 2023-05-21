@@ -44,7 +44,8 @@ namespace ef.intro.wwwapi.Data
             "nasa.org.us",
             "gov.us",
             "gov.gr",
-            "gov.nl"
+            "gov.nl",
+            "gov.ru"
         };
         private static List<string> FirstWord = new List<string>()
         {
@@ -98,7 +99,7 @@ namespace ef.intro.wwwapi.Data
                         author.Id = x;
                         author.FirstName = Firstnames[authorRandom.Next(Firstnames.Count)];
                         author.LastName = Lastnames[authorRandom.Next(Lastnames.Count)];
-                        author.Email = $"{author.FirstName}.{author.LastName}@{Domain[authorRandom.Next(Domain.Count)]}";
+                        author.Email = $"{author.FirstName}.{author.LastName}@{Domain[authorRandom.Next(Domain.Count)]}".ToLower();
                         authors.Add(author);
 
                                               
