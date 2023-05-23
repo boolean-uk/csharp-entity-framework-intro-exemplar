@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "On1xVLP4mQ5pt+Ae4YhHPWSNOioCGUEcyAzMbV+XOLuP5fIVJ8vglDzLqlMazJnB9LZRQ4mtxH1dQRgPKSwszA==",
+  "dgSpecHash": "1n4UyrrunkNK5l3pc+syZtJiMoWEVCx3E2nGJju1gnsqnzhrHrO2uLtqtDH16Bd2gLgKQzto34D1mSjSua0cNQ==",
   "success": true,
-  "projectFilePath": "C:\\Boolean\\7EntityFramework\\csharp-entity-framework-intro-exemplar\\ef.intro.wwwapi\\ef.intro.wwwapi.csproj",
+  "projectFilePath": "C:\\Boolean\\3ApisDataStores\\7EntityFramework\\csharp-entity-framework-intro-exemplar\\ef.intro.wwwapi\\ef.intro.wwwapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

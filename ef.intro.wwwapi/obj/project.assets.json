@@ -1158,11 +1158,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Boolean\\7EntityFramework\\csharp-entity-framework-intro-exemplar\\ef.intro.wwwapi\\ef.intro.wwwapi.csproj",
+      "projectUniqueName": "C:\\Boolean\\3ApisDataStores\\7EntityFramework\\csharp-entity-framework-intro-exemplar\\ef.intro.wwwapi\\ef.intro.wwwapi.csproj",
       "projectName": "ef.intro.wwwapi",
-      "projectPath": "C:\\Boolean\\7EntityFramework\\csharp-entity-framework-intro-exemplar\\ef.intro.wwwapi\\ef.intro.wwwapi.csproj",
+      "projectPath": "C:\\Boolean\\3ApisDataStores\\7EntityFramework\\csharp-entity-framework-intro-exemplar\\ef.intro.wwwapi\\ef.intro.wwwapi.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Boolean\\7EntityFramework\\csharp-entity-framework-intro-exemplar\\ef.intro.wwwapi\\obj\\",
+      "outputPath": "C:\\Boolean\\3ApisDataStores\\7EntityFramework\\csharp-entity-framework-intro-exemplar\\ef.intro.wwwapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

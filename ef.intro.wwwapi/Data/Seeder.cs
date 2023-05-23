@@ -79,7 +79,15 @@ namespace ef.intro.wwwapi.Data
             "Flowers",
             "Leopards"
         };
+        private static string GeneratePublisherName()
+        {
+            string[] words = { "Blue", "Readable", "Flying", "Expensive", "Reflective", "Feathery", "Shiny", "Clean", "Brown Bagel", "Unlimited"};
 
+
+            Random random = new Random();
+            return $"The {words[random.Next(words.Length)]} Publishing Company";
+
+        }
         public static void Seed(this WebApplication app)
         {
          
@@ -121,6 +129,17 @@ namespace ef.intro.wwwapi.Data
                         books.Add(book);
                     }
                     db.Books.AddRange(books);
+                }
+
+                //TODO: check for any Publishers and add 100 publishers.  change line below to check db context for publishers
+
+                if(1==2)
+                {
+                    for(int i = 0; i < 100;  i++)
+                    {
+                        string publishername = GeneratePublisherName();
+                        //populate in memory database with test data
+                    }
                 }
                 db.SaveChanges();            
             }

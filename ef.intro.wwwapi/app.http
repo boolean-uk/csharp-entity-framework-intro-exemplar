@@ -1,6 +1,6 @@
 # For more info on HTTP files go to https://aka.ms/vs/httpfile
 
-@port=7136
+@port=0000
 ###
 ### IEnumerable<Author> GetAllAuthors();
 GET https://localhost:{{port}}/authors
