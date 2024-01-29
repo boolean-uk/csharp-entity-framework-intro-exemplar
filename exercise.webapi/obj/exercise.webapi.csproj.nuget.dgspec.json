@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_BooleanCSharp3\\csharp-docker-1\\exercise.webapi\\exercise.webapi.csproj": {}
+    "C:\\_BooleanCSharp3\\csharp-entity-framework-intro-exemplar\\exercise.webapi\\exercise.webapi.csproj": {}
   },
   "projects": {
-    "C:\\_BooleanCSharp3\\csharp-docker-1\\exercise.webapi\\exercise.webapi.csproj": {
+    "C:\\_BooleanCSharp3\\csharp-entity-framework-intro-exemplar\\exercise.webapi\\exercise.webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_BooleanCSharp3\\csharp-docker-1\\exercise.webapi\\exercise.webapi.csproj",
+        "projectUniqueName": "C:\\_BooleanCSharp3\\csharp-entity-framework-intro-exemplar\\exercise.webapi\\exercise.webapi.csproj",
         "projectName": "exercise.webapi",
-        "projectPath": "C:\\_BooleanCSharp3\\csharp-docker-1\\exercise.webapi\\exercise.webapi.csproj",
+        "projectPath": "C:\\_BooleanCSharp3\\csharp-entity-framework-intro-exemplar\\exercise.webapi\\exercise.webapi.csproj",
         "packagesPath": "C:\\Users\\nigel\\.nuget\\packages\\",
-        "outputPath": "C:\\_BooleanCSharp3\\csharp-docker-1\\exercise.webapi\\obj\\",
+        "outputPath": "C:\\_BooleanCSharp3\\csharp-entity-framework-intro-exemplar\\exercise.webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

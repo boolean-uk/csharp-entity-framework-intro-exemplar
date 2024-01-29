@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GTsAiQrd9mG+gNJJayArIWSDVYOyvZ2EI+0zRRaKg+vbwHCGjGbkSVP8fwxhR+DjgHdgzbiqYATq56hhJ12a/Q==",
+  "dgSpecHash": "V7YNDXzDHDeeHJJEYcJu3dIP/gVDgJh7Tq9q/uPquCOC07rfjsNjboTEP+HhVSV/ejL+gR612eBWUp/5NXQLZQ==",
   "success": true,
-  "projectFilePath": "C:\\_BooleanCSharp3\\csharp-docker-1\\exercise.webapi\\exercise.webapi.csproj",
+  "projectFilePath": "C:\\_BooleanCSharp3\\csharp-entity-framework-intro-exemplar\\exercise.webapi\\exercise.webapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nigel\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\nigel\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.1\\microsoft.entityframeworkcore.8.0.1.nupkg.sha512",
